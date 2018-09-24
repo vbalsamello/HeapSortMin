@@ -59,7 +59,7 @@ function shiftDown(&$arreglo,$limit){
     }
 }
 
-/*Primer fase del HeapSort, para transformar el arreglo en un Heap máximo*/
+/*Primer fase del HeapSort, para transformar el arreglo en un Heap minimo*/
 function armarHeapMinimo(&$arreglo){
     $inicio = 1;
     while($inicio < count($arreglo)){
