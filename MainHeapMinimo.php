@@ -71,7 +71,7 @@ function armarHeapMinimo(&$arreglo){
 
 function heapSort(&$arreglo){
     armarHeapMinimo($arreglo);
-    echo "Arreglo Heap maximo: "; printArray($arreglo);echo "\n";
+    echo "Arreglo Heap minimo: "; printArray($arreglo);echo "\n";
     $indice = count($arreglo);
     while($indice != 1){
         echo "cambio ".$arreglo[1]." por ".$arreglo[$indice]."\n";
